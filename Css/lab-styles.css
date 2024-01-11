@@ -1,0 +1,51 @@
+/* general style */
+
+html{
+    overflow-x: hidden;
+
+}
+u{
+    font-weight: 700;
+}
+
+.fs_small{
+    font-size: 28px;
+    line-height: 35px;
+}
+.fs_small2{
+    font-size: 28px;
+}
+.fs_small3{
+    font-size: 24px;
+}
+
+.btn-1{
+    border-radius: 0%;
+    margin: 17px 0 ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.samples li{
+    margin-bottom: 15px;
+}
+
+.part-6 {
+    background-image: linear-gradient(to bottom right, #29ace0d8 , #ffffffb2);
+}
+
+.part4_part5_part6{
+    background-image:url(../Images/img-background-lines.svg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.part4{
+    background-image:linear-gradient(to bottom right, #29ace0 , #29ace025), url(../Images/section-2-backgroundimage.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+button{
+    box-shadow: 1px 7px 11px 9px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}

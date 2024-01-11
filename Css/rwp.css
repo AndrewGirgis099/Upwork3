@@ -1,0 +1,27 @@
+@media only screen and (max-width: 991px) {
+    button{
+        /* font-size: 20px !important; */
+    }
+    .btn-part4{
+        width: 100% !important;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    button{
+        font-size: 18px !important;
+    }
+    h2{
+        font-size: 30px !important;
+    }
+    .fs_small{
+        font-size: 20px;
+    }
+    .fs_small2{
+        font-size: 20px;
+    }
+    .fs_small3{
+        font-size: 20px;
+    }
+
+  }
