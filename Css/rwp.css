@@ -5,6 +5,42 @@
     .btn-part4{
         width: 100% !important;
     }
+    .our_lap{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-flag{
+        display: flex !important;
+    }
+    .card-flag {
+        display: none !important;
+    }
+   
+    .w-par {
+        width: 100% !important;
+    }
+
+    .two-card{
+        justify-content: center !important;
+    }
+
+    .card-c1{
+        min-width:230px;
+    }
+
+    .card-c2{
+        max-width: 275px !important;
+    }
+    .line-flag{
+        display: none;
+    }
+    .img-right{
+        width: 100%;
+    }
+
+    .bg-overlay2 {
+        order: -1 !important;
+    }
   }
 
 @media only screen and (max-width: 600px) {
@@ -23,5 +59,29 @@
     .fs_small3{
         font-size: 20px;
     }
+    .our_lap{
+        font-size: 20px !important;
+    }
 
-  }
+
+    .card-c1{
+        min-height:350px;
+    }
+    .card-c1 h3{
+        font-size: 40px;
+    }
+    .card-c1 p{
+        font-size: 35px !important;
+    }
+
+    .card-c2{
+        max-width: 190px !important;
+    }
+
+    .btn-flag{
+        width: 80%;
+        margin: auto;
+    }
+
+   
+}
