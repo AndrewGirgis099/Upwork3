@@ -1,8 +1,10 @@
 /* general style */
 
 html{
-    overflow-x: hidden;
-
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
 }
 u{
     font-weight: 700;
