@@ -99,7 +99,7 @@ button{
     border-color: #7993AD !important;
 }
 .bg-btn-blue:hover{
-    background-color: #93b3d3;
+    background-color: #6ca5df !important;
 }
 .text-btn-blue{
     color: #7993AD;
@@ -120,7 +120,7 @@ button{
 }
 
 .btn-flag{
-    display: none !important;
+    display: none;
 }
 
 .text-sec-blue{
@@ -159,4 +159,6 @@ button{
     top: 0%;
   }
 
- 
+ .cursor{
+    cursor: pointer;
+ }

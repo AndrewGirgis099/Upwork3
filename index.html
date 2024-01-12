@@ -15,6 +15,12 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
 
+        <!-- aimimat.css -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+
     <!-- main css -->
     <link rel="stylesheet" href="Css/lab-styles.css">
     <!-- rwp css -->
@@ -58,18 +64,74 @@
 </nav>
     </nav> -->
 
+  
+
     <section class="first">
         <div class="container py-4">
-            <button class=" btn-flag d-flex  bg-btn-blue ps-4 pe-2 py-1 rounded-pill  fs-4 align-items-center justify-content-between access-btn "><span class="fw-bold text-white">Get Access! </span>
+            <button id="btn1"
+                class=" btn-flag   bg-btn-blue ps-4 pe-2 py-1 rounded-pill  fs-4 align-items-center justify-content-between access-btn "><span
+                    class="fw-bold text-white">Get Access! </span>
                 <div class="rounded-circle bg-white d-flex ms-4">
                     <i class="fa-solid fa-plus fs-6 p-2 text-btn-blue"></i>
                 </div>
             </button>
-            <!-- <button class=" btn-flag d-flex border-btn-blue border border-2 mt-3  ps-4 pe-2 py-1 rounded-pill  fs-4 align-items-center justify-content-between  "><span class="fw-bold text-btn-blue">Get Access! </span>
+            <button id="btn2"
+                class="btn-flag d-none d-flex border-btn-blue border border-2 mt-3  ps-4 pe-2 py-1 rounded-pill  fs-4 align-items-center justify-content-between  "><span
+                    class="fw-bold text-btn-blue">Get Access! </span>
                 <div class="rounded-circle bg-white d-flex ms-4  bg-btn-blue">
                     <i class="fa-solid fa-minus fs-6 p-2 text-white"></i>
                 </div>
-            </button> -->
+            </button>
+
+            <div id="dropdown" class="first animate__animated bg-white d-none my-4">
+                <div class="container py-4">
+        
+        
+                    <div class="row align-items-center">
+                        <div class="col-md-6  col-part1 py-5 ">
+        
+                            <p class="fs_small3 w-75 text-black w-par ">
+                                Introducing <span class="fw-bold">SYNC</span>, our latest initiative that grants customers the ability to sign into the lab
+                                area and other future sections, providing access to exclusive partner-only content.
+                            </p>
+                            <span class="text-gray fw-bold fs-5 cursor">Sign Up / Sign In</span>
+        
+                        </div>
+        
+                        <div class="col-md-6  d-flex  ">
+                        
+        
+                                <div class="p-4 small-tab-card ">
+        
+                                    <div class="bg-vilot py-4 rounded-3 position-relative">
+                                        <div class="ms-4">
+                                            <img src="Images/Group 3.svg" class="pb-1" alt="">
+                                        </div>
+                                        <ul class="text-white ms-4 py-4">
+                                            <li>Laboratory Services</li>
+                                            <li>Customer Access</li>
+                                        </ul>
+                                        <div class="position-absolute bottom-0 start-0 end-0">
+                                            <img src="Images/lilili.svg" width="100%" alt="">
+                                        </div>
+        
+                                    </div>
+        
+        
+        
+        
+        
+                                </div>
+             
+        
+                        </div>
+                    </div>
+        
+        
+        
+        
+                </div>
+            </div>
 
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-12 col-part1 py-5 ">
@@ -117,13 +179,15 @@
                     <div class="big-card mt-5">
                         <div class="p-4">
                             <h2 class="h3 text-vilot">Get Access!</h2>
-                            <p>Introducing <span class="fw-bold">SYNC</span>, our latest initiative that grants customers the ability to sign into the
-                                lab area and other future sections, providing access to exclusive partner-only content.</p>
-                                <span class="text-gray fw-bold fs-5">Sign Up / Sign In</span>
+                            <p>Introducing <span class="fw-bold">SYNC</span>, our latest initiative that grants
+                                customers the ability to sign into the
+                                lab area and other future sections, providing access to exclusive partner-only content.
+                            </p>
+                            <span class="text-gray fw-bold fs-5">Sign Up / Sign In</span>
                         </div>
-    
+
                         <div class="p-4 small-card ">
-                            
+
                             <div class="bg-vilot py-4 rounded-3 position-relative">
                                 <div class="ms-4">
                                     <img src="Images/Group 3.svg" class="pb-3" alt="">
@@ -133,21 +197,21 @@
                                     <li>Customer Access</li>
                                 </ul>
                                 <div class="position-absolute bottom-0">
-                                    <img src="Images/lilili.svg" width="300px"   alt="">
+                                    <img src="Images/lilili.svg" width="300px" alt="">
                                 </div>
-                                
+
                             </div>
 
-                          
 
-                            
-                        
+
+
+
                         </div>
                     </div>
                     <div class="big-card-yellow mt-5">
 
                     </div>
-                   
+
                 </div>
             </div>
 
@@ -293,6 +357,7 @@
     </section>
 
     <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/index.js"></script>
 
 </body>
 

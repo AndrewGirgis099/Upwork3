@@ -1,4 +1,10 @@
 @media only screen and (max-width: 991px) {
+    .small-tab-card{
+        min-width: 400px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
     button{
         /* font-size: 20px !important; */
     }
@@ -10,7 +16,7 @@
         text-align: center;
     }
     .btn-flag{
-        display: flex !important;
+        display: flex;
     }
     .card-flag {
         display: none !important;
@@ -41,6 +47,12 @@
     .bg-overlay2 {
         order: -1 !important;
     }
+
+    .small-tab-card{
+        min-width: 325px;
+        margin: auto;
+    }
+    
   }
 
 @media only screen and (max-width: 600px) {
@@ -83,5 +95,8 @@
         margin: auto;
     }
 
-   
+    .small-tab-card{
+        min-width: 270px;
+        margin: auto;
+    }
 }
