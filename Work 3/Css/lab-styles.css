@@ -1,0 +1,164 @@
+/* general style */
+
+html{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+u{
+    font-weight: 700;
+}
+
+.w-65{
+    width: 67%;
+}
+.fs_small{
+    font-size: 28px;
+    line-height: 35px;
+}
+.fs_small2{
+    font-size: 28px;
+}
+.fs_small3{
+    font-size: 23px;
+}
+.fs_small_p{
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.w-35{
+    width: 37%;
+    height: 50%;
+}
+
+.btn-1{
+    border-radius: 0%;
+    margin: 17px 0 ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.samples li{
+    margin-bottom: 15px;
+}
+
+.part-6 {
+    background-image: linear-gradient(to bottom right, #29ace0d8 , #ffffffb2);
+}
+
+.part4_part5_part6{
+    background-image:url(../Images/img-background-lines.svg) ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.part4{
+    background-image:linear-gradient(to bottom right, #29ace0 , #29ace025), url(../Images/section-2-backgroundimage.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+button{
+    box-shadow: 1px 7px 11px 9px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+.first{
+    background-color: #D9D9D9;
+}
+
+.bg-gray{
+    background-color: #8E8C84;
+}
+.bg-blue{
+    background-color: #29ABE0;
+}
+.bg-dark-gray{
+    background-color: #555555;
+}
+.text-vilot{
+    color: #7993AD;
+}
+.bg-vilot{
+    background-color: #7993AD;
+}
+.text-gray{
+    color: #555555;
+}
+
+.bg-btn-blue{
+    background-color: #7993AD !important;
+    transition: 0.5s;
+}
+.border-btn-blue{
+    border-color: #7993AD !important;
+}
+.bg-btn-blue:hover{
+    background-color: #6ca5df !important;
+}
+.text-btn-blue{
+    color: #7993AD;
+}
+
+.big-card{
+    background-image: linear-gradient(#fff , #D9D9D9 );
+}
+.big-card-yellow{
+    width: 25px;
+    height: 350px;
+    background-image: linear-gradient(#C8B751 , #D9D9D9 );
+}
+
+.access-btn{
+    border: none;
+    box-shadow: none;
+}
+
+.btn-flag{
+    display: none;
+}
+
+.text-sec-blue{
+    color: #315D87;
+}
+
+
+/* second page */
+.right-col-h2{
+    font-size: 45px !important;
+    font-weight: 700 !important;
+}
+
+.bg-overlay1{
+    background-color: #29ace057;
+    right: 10px !important;
+}
+.bg-overlay2{
+    background-color: #29ABE0;
+    right: 10px !important;
+}
+
+
+
+
+
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #fff;
+    border-right: 100px solid transparent;
+  }
+
+  .arrow{
+    top: 0%;
+  }
+
+ .cursor{
+    cursor: pointer;
+ }
